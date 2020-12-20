@@ -44,6 +44,10 @@ $start_from = ($page-1) * $per_page;
 </div>
 <?php } ?> <!--End while loop-->
 <!--pagination-->
+<?php echo "<span class='pagination'><a href='index.php?page=1'>".'First page'."</a>"?>
+
+1,2,3
+<?php echo "<a href='index.php?page=1'>".'Last page'."</a></span>" ?>
 <!--End pagination-->
 
 <?php } else {header("Location:404.php");} ?>
